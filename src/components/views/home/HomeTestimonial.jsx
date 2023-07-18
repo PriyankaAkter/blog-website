@@ -50,6 +50,7 @@ const HomeTestimonial = () => {
                   <div className="flex gap-6">
                     <SwiperPreviousButton />
                     <SwiperNextButton />
+                    
                   </div>
                 </div>
 
