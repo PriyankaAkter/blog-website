@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    font-size: 1rem;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+    background: white;
+    /* font-family: 'Inter', sans-serif; */
+    @apply text-primary font-inter;
+  }
+ .display {
+    @apply text-3xl font-bold  sm:text-4xl md:text-5xl xl:text-[56px] xl:leading-[64px] font-sens;
+  
+  }
+  h1 {
+    @apply text-3xl font-bold sm:text-4xl md:text-[40px] xl:text-5xl xl:leading-[64px]  font-sens;
+  
+  }
+  h2 {
+    @apply text-3xl font-bold md:text-4xl font-sens;
+  }
+  h3 {
+    @apply text-2xl font-bold md:text-[28px] font-sens;
+    
+  }
+  h4 {
+    @apply text-xl  font-semibold leading-[130%] font-sens lg:text-2xl;
+    }
+  h5 {
+    @apply text-2xl font-bold sm:text-3xl font-sens;
+
+  }
+  p {
+    @apply text-sm font-normal leading-7 md:text-base;
+    font-family: 'Inter', sans-serif;
+  }
+  .p_small {
+    @apply text-xs font-normal leading-6 md:text-sm;
+    font-family: 'Inter', sans-serif;
+  }
+  /* li {
+    @apply list-disc font-montserrat text-sm font-medium;
+  } */
+  label {
+    @apply text-[14px] font-normal leading-6 md:text-xl;
+  }
+  .flex1{
+    @apply flex justify-between items-center 
+  }
+  a {
+  }
+  button {
+    @apply px-12 py-4 font-bold bg-secondary hover:bg-[#EDC14A] text-primary font-sens ;
+  }
+  .bg-style {
+    @apply bg-cover bg-center bg-no-repeat;
+  }
+  .sb {
+    @apply border border-red-500;
+  }
+
+  /* .text-before::before {
+    content: 'online';
+    width: 100%;
+  }
+
+  .workDetails-hero-bg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/assets/images/worksDetails/works-details-hero.png');
+  }
+
+  .alipay-bg {
+    background: linear-gradient(to right, white 45%, #00cea4 40% 55%);
+  }
+
+  .swiper > .swiper-button-next,
+  .swiper > .swiper-button-prev {
+    color: black;
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+  } */
+
+
+}
+
+.container {
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  max-width: 1280px;
+}
+
+@media (min-width: 640px) {
+  .container {
+    width: calc(100% - 60px);
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    width: calc(100% - 80px);
+  }
+}
