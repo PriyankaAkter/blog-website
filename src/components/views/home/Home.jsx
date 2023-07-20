@@ -15,6 +15,7 @@ const Home = () => {
    <div > 
     <HomeHero />
     <HomePost />
+    {/* <HomePost1 /> */}
     <HomeAbout />
     <HomeCategory/>
     <HomeStory />

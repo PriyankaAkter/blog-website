@@ -9,7 +9,7 @@ export const BlogData = [
     {
         id:2,
         image: '/assests/images/blog/post2.png',
-        title: "Startup",
+        title: "Business",
         subTitle: "How to build rapport with your web design clients",
         description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
@@ -23,14 +23,14 @@ export const BlogData = [
     {
         id:4,
         image: '/assests/images/blog/post4.png',
-        title: "Startup",
+        title: "Technology",
         subTitle: "8 Figma design systems you can download for free today",
         description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
     {
         id:5,
         image: '/assests/images/blog/post5.png',
-        title: "Startup",
+        title: "Economy",
         subTitle: "Font sizes in UI design: The complete guide to follow",
         description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
@@ -51,157 +51,203 @@ export const BlogAboutData = [
 
 export const blogs = [
     {
-      "id": 1,
-      "image": "/assests/images/blog/post1.png",
-      "category": "Startup",
-      "date": "2023-07-13",
-      "title": "Design tips for designers that cover everything you need",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus id lorem lobortis fringilla. Suspendisse potenti. Phasellus consectetur sapien eget lectus fermentum, vitae gravida nunc consectetur. Aenean ac orci justo. Nunc finibus pellentesque dui, ac fermentum velit vulputate at. Aliquam tincidunt tellus ac ligula eleifend rhoncus. Duis non felis risus. Quisque eget lorem sed nulla dignissim efficitur. Etiam malesuada purus vel elit lacinia consectetur. Suspendisse potenti. Nunc efficitur dapibus felis, non bibendum sem dapibus eu. Ut in tortor orci. Nulla facilisi. Sed quis fringilla enim. Curabitur dictum, enim non egestas feugiat, lorem sapien suscipit justo, et elementum mauris est eget sem. Ut a tortor auctor, lacinia odio vel, commodo mi.",
-      "authors": {
-        "image": "example.png",
-        "name": "John Doe",
-        "slug": "john-doe",
-        "bio": {
-          "title": "Author and Designer",
-          "description": "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
+      id: 1,
+      image: "/assests/images/blog/post1.png",
+      category: "Business",
+      slug:"business",
+      icon: '/assests/images/home/catagory2.svg',
+      date: "2023-07-13",
+      title: "Design tips for designers that cover everything you need",
+      subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      authors: {
+        image: '/assests/images/home/author1.png',
+        title: "Floyd Miles",
+        slug:"floyd-miles",
+        address: "New york, USA",
+        subTitle: "Content Writer @Company",
+        bio: {
+          title: "Author and Designer",
+          description: "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
         }
       }
     },
     {
-      "id": 2,
-      "image": "/assests/images/blog/post2.png",
-      "category": "Technology",
-      "date": "2023-07-14",
-      "title": "The Future of Artificial Intelligence",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus id lorem lobortis fringilla. Suspendisse potenti. Phasellus consectetur sapien eget lectus fermentum, vitae gravida nunc consectetur. Aenean ac orci justo. Nunc finibus pellentesque dui, ac fermentum velit vulputate at. Aliquam tincidunt tellus ac ligula eleifend rhoncus. Duis non felis risus. Quisque eget lorem sed nulla dignissim efficitur. Etiam malesuada purus vel elit lacinia consectetur. Suspendisse potenti. Nunc efficitur dapibus felis, non bibendum sem dapibus eu. Ut in tortor orci. Nulla facilisi. Sed quis fringilla enim. Curabitur dictum, enim non egestas feugiat, lorem sapien suscipit justo, et elementum mauris est eget sem. Ut a tortor auctor, lacinia odio vel, commodo mi.",
-      "authors": {
-        "image": "example.png",
-        "name": "Jane Smith",
-        "slug": "jane-smith",
-        "bio": {
-          "title": "AI Researcher",
-          "description": "Jane Smith is a renowned AI researcher, passionate about exploring the potential and ethical implications of artificial intelligence. With years of experience in the field, she has contributed to groundbreaking projects and is dedicated to making AI accessible and beneficial for all."
+      id: 2,
+      image: "/assests/images/blog/post2.png",
+      category: "Technology",
+      slug:"technology",
+      icon: '/assests/images/home/catagory4.svg',
+       date: "2023-07-14",
+      title: "How to build rapport with your web design clients",
+      subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      authors: {
+        image: '/assests/images/home/author2.png',
+        title: "Dianne Russell",
+        slug:"dianne-russell",
+        address: "New york, USA",
+        subTitle: "Content Writer @Company",
+        bio: {
+          title: "Author and Designer",
+          description: "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
         }
       }
     },
     {
-      "id": 3,
-      "image": "/assests/images/blog/post3.png",
-      "category": "Travel",
-      "date": "2023-07-15",
-      "title": "Uncovering Hidden Gems: Off the Beaten Path",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus id lorem lobortis fringilla. Suspendisse potenti. Phasellus consectetur sapien eget lectus fermentum, vitae gravida nunc consectetur. Aenean ac orci justo. Nunc finibus pellentesque dui, ac fermentum velit vulputate at. Aliquam tincidunt tellus ac ligula eleifend rhoncus. Duis non felis risus. Quisque eget lorem sed nulla dignissim efficitur. Etiam malesuada purus vel elit lacinia consectetur. Suspendisse potenti. Nunc efficitur dapibus felis, non bibendum sem dapibus eu. Ut in tortor orci. Nulla facilisi. Sed quis fringilla enim. Curabitur dictum, enim non egestas feugiat, lorem sapien suscipit justo, et elementum mauris est eget sem. Ut a tortor auctor, lacinia odio vel, commodo mi.",
-      "authors": {
-        "image": "example.png",
-        "name": "Sarah Johnson",
-        "slug": "sarah-johnson",
-        "bio": {
-          "title": "Travel Blogger",
-          "description": "Sarah Johnson is an avid traveler and blogger, always seeking out unique and lesser-known destinations. Through her engaging storytelling and stunning photography, she inspires others to explore the world and embrace new experiences."
+      id: 3,
+      image: "/assests/images/blog/post3.png",
+      category: "Economy",
+      slug:"economy",
+      date: "2023-07-17",
+      icon: '/assests/images/home/catagory3.svg',
+      title: "Logo design trends to avoid in 2022",
+      subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      authors: {
+        image: '/assests/images/home/author2.png',
+        title: "Jenny Wilson",
+        slug:"jenny-wilson",
+        address: "New york, USA",
+        subTitle: "Content Writer @Company",
+        bio: {
+          title: "Author and Designer",
+          description: "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
         }
       }
     },
     {
-      "id": 4,
-      "image": "/assests/images/blog/post4.png",
-      "category": "Health",
-      "date": "2023-07-16",
-      "title": "Healthy Eating: Tips for a Balanced Diet",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus id lorem lobortis fringilla. Suspendisse potenti. Phasellus consectetur sapien eget lectus fermentum, vitae gravida nunc consectetur. Aenean ac orci justo. Nunc finibus pellentesque dui, ac fermentum velit vulputate at. Aliquam tincidunt tellus ac ligula eleifend rhoncus. Duis non felis risus. Quisque eget lorem sed nulla dignissim efficitur. Etiam malesuada purus vel elit lacinia consectetur. Suspendisse potenti. Nunc efficitur dapibus felis, non bibendum sem dapibus eu. Ut in tortor orci. Nulla facilisi. Sed quis fringilla enim. Curabitur dictum, enim non egestas feugiat, lorem sapien suscipit justo, et elementum mauris est eget sem. Ut a tortor auctor, lacinia odio vel, commodo mi.",
-      "authors": {
-        "image": "example.png",
-        "name": "David Lee",
-        "slug": "david-lee",
-        "bio": {
-          "title": "Nutritionist",
-          "description": "David Lee is a registered nutritionist, dedicated to promoting healthy eating habits and educating individuals about the importance of a balanced diet. With a wealth of knowledge and expertise, he helps people make informed choices to improve their overall well-being."
+      id: 4,
+      image: "/assests/images/blog/post4.png",
+    category: "Technology",
+    slug:"technology",
+    date: "2023-07-19",
+    icon: '/assests/images/home/catagory4.svg',
+    title: "8 Figma design systems you can download for free today",
+    subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      authors: {
+        image: '/assests/images/home/author4.png',
+        title: "Leslie Alexander",
+        slug:"leslie-alexander",
+        address: "New york, USA",
+        subTitle: "Content Writer @Company",
+        bio: {
+          title: "Author and Designer",
+          description: "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
         }
       }
     },
     {
-      "id": 5,
-      "image": "/assests/images/blog/post5.png",
-      "category": "Fashion",
-      "date": "2023-07-17",
-      "title": "Fashion Trends: Latest Styles and Must-Haves",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus id lorem lobortis fringilla. Suspendisse potenti. Phasellus consectetur sapien eget lectus fermentum, vitae gravida nunc consectetur. Aenean ac orci justo. Nunc finibus pellentesque dui, ac fermentum velit vulputate at. Aliquam tincidunt tellus ac ligula eleifend rhoncus. Duis non felis risus. Quisque eget lorem sed nulla dignissim efficitur. Etiam malesuada purus vel elit lacinia consectetur. Suspendisse potenti. Nunc efficitur dapibus felis, non bibendum sem dapibus eu. Ut in tortor orci. Nulla facilisi. Sed quis fringilla enim. Curabitur dictum, enim non egestas feugiat, lorem sapien suscipit justo, et elementum mauris est eget sem. Ut a tortor auctor, lacinia odio vel, commodo mi.",
-      "authors": {
-        "image": "example.png",
-        "name": "Emily Wang",
-        "slug": "emily-wang",
-        "bio": {
-          "title": "Fashion Stylist",
-          "description": "Emily Wang is a renowned fashion stylist, known for her keen fashion sense and ability to curate stunning looks. With her expertise in current trends and personal style, she provides valuable insights and tips to help individuals elevate their fashion choices."
+      id: 5,
+      image: "/assests/images/blog/post5.png",
+      category: "Business",
+      slug:"business",
+      date: "2023-07-17",
+      icon: '/assests/images/home/catagory1.svg',
+      title: "Font sizes in UI design: The complete guide to follow",
+      subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+       authors: {
+        image: '/assests/images/home/author5.png',
+        title: "Guy Hawkins",
+        slug:"guy-hawkins",
+        address: "New york, USA",
+        subTitle: "Content Writer @Company",
+        bio: {
+          title: "Author and Designer",
+          description: "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
         }
       }
     },
     {
-      "id": 5,
-      "image": "/assests/images/blog/post5.png",
-      "category": "Fashion",
-      "date": "2023-07-17",
-      "title": "Fashion Trends: Latest Styles and Must-Haves",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus id lorem lobortis fringilla. Suspendisse potenti. Phasellus consectetur sapien eget lectus fermentum, vitae gravida nunc consectetur. Aenean ac orci justo. Nunc finibus pellentesque dui, ac fermentum velit vulputate at. Aliquam tincidunt tellus ac ligula eleifend rhoncus. Duis non felis risus. Quisque eget lorem sed nulla dignissim efficitur. Etiam malesuada purus vel elit lacinia consectetur. Suspendisse potenti. Nunc efficitur dapibus felis, non bibendum sem dapibus eu. Ut in tortor orci. Nulla facilisi. Sed quis fringilla enim. Curabitur dictum, enim non egestas feugiat, lorem sapien suscipit justo, et elementum mauris est eget sem. Ut a tortor auctor, lacinia odio vel, commodo mi.",
-      "authors": {
-        "image": "example.png",
-        "name": "Emily Wang",
-        "slug": "emily-wang",
-        "bio": {
-          "title": "Fashion Stylist",
-          "description": "Emily Wang is a renowned fashion stylist, known for her keen fashion sense and ability to curate stunning looks. With her expertise in current trends and personal style, she provides valuable insights and tips to help individuals elevate their fashion choices."
+      id: 6,
+      image: "/assests/images/blog/post2.png",
+      category: "Startup",
+      slug:"startup",
+       date: "2023-07-14",
+       icon: '/assests/images/home/catagory2.svg',
+      title: "The Future of Artificial Intelligence",
+      subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      authors: {
+        image: '/assests/images/home/author6.png',
+        title: "Eleanor Pena",
+        slug:"eleanor-pena",
+        address: "New york, USA",
+        subTitle: "Content Writer @Company",
+        bio: {
+          title: "Author and Designer",
+          description: "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
         }
       }
     },
     {
-      "id": 5,
-      "image": "/assests/images/blog/post5.png",
-      "category": "Fashion",
-      "date": "2023-07-17",
-      "title": "Fashion Trends: Latest Styles and Must-Haves",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus id lorem lobortis fringilla. Suspendisse potenti. Phasellus consectetur sapien eget lectus fermentum, vitae gravida nunc consectetur. Aenean ac orci justo. Nunc finibus pellentesque dui, ac fermentum velit vulputate at. Aliquam tincidunt tellus ac ligula eleifend rhoncus. Duis non felis risus. Quisque eget lorem sed nulla dignissim efficitur. Etiam malesuada purus vel elit lacinia consectetur. Suspendisse potenti. Nunc efficitur dapibus felis, non bibendum sem dapibus eu. Ut in tortor orci. Nulla facilisi. Sed quis fringilla enim. Curabitur dictum, enim non egestas feugiat, lorem sapien suscipit justo, et elementum mauris est eget sem. Ut a tortor auctor, lacinia odio vel, commodo mi.",
-      "authors": {
-        "image": "example.png",
-        "name": "Emily Wang",
-        "slug": "emily-wang",
-        "bio": {
-          "title": "Fashion Stylist",
-          "description": "Emily Wang is a renowned fashion stylist, known for her keen fashion sense and ability to curate stunning looks. With her expertise in current trends and personal style, she provides valuable insights and tips to help individuals elevate their fashion choices."
+      id: 7,
+      image: "/assests/images/blog/post4.png",
+      category: "Business",
+      slug:"business",
+      date: "2023-07-17",
+      icon: '/assests/images/home/catagory1.svg',
+      title: "Fashion Trends: Latest Styles and Must-Haves",
+      subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      authors: {
+        image: '/assests/images/home/author2.png',
+        title: "Robert Fox",
+        slug:"robert-fox",
+        address: "New york, USA",
+        subTitle: "Content Writer @Company",
+        bio: {
+          title: "Author and Designer",
+          description: "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
         }
       }
     },
     {
-      "id": 5,
-      "image": "/assests/images/blog/post5.png",
-      "category": "Fashion",
-      "date": "2023-07-17",
-      "title": "Fashion Trends: Latest Styles and Must-Haves",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus id lorem lobortis fringilla. Suspendisse potenti. Phasellus consectetur sapien eget lectus fermentum, vitae gravida nunc consectetur. Aenean ac orci justo. Nunc finibus pellentesque dui, ac fermentum velit vulputate at. Aliquam tincidunt tellus ac ligula eleifend rhoncus. Duis non felis risus. Quisque eget lorem sed nulla dignissim efficitur. Etiam malesuada purus vel elit lacinia consectetur. Suspendisse potenti. Nunc efficitur dapibus felis, non bibendum sem dapibus eu. Ut in tortor orci. Nulla facilisi. Sed quis fringilla enim. Curabitur dictum, enim non egestas feugiat, lorem sapien suscipit justo, et elementum mauris est eget sem. Ut a tortor auctor, lacinia odio vel, commodo mi.",
-      "authors": {
-        "image": "example.png",
-        "name": "Emily Wang",
-        "slug": "emily-wang",
-        "bio": {
-          "title": "Fashion Stylist",
-          "description": "Emily Wang is a renowned fashion stylist, known for her keen fashion sense and ability to curate stunning looks. With her expertise in current trends and personal style, she provides valuable insights and tips to help individuals elevate their fashion choices."
+      id: 8,
+      image: "/assests/images/author/author2.png",
+    category: "Business",
+    slug:"business",
+    date: "2023-07-19",
+    icon: '/assests/images/home/catagory1.svg',
+    title: "Fashion Trends: Latest Styles and Must-Haves",
+    subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      authors: {
+        image: '/assests/images/home/author4.png',
+        title: "Floyd Miles",
+        slug:"floyd-miles",
+        address: "New york, USA",
+        subTitle: "Content Writer @Company",
+        bio: {
+          title: "Author and Designer",
+          description: "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
         }
       }
     },
     {
-      "id": 5,
-      "image": "/assests/images/blog/post5.png",
-      "category": "Fashion",
-      "date": "2023-07-17",
-      "title": "Fashion Trends: Latest Styles and Must-Haves",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus id lorem lobortis fringilla. Suspendisse potenti. Phasellus consectetur sapien eget lectus fermentum, vitae gravida nunc consectetur. Aenean ac orci justo. Nunc finibus pellentesque dui, ac fermentum velit vulputate at. Aliquam tincidunt tellus ac ligula eleifend rhoncus. Duis non felis risus. Quisque eget lorem sed nulla dignissim efficitur. Etiam malesuada purus vel elit lacinia consectetur. Suspendisse potenti. Nunc efficitur dapibus felis, non bibendum sem dapibus eu. Ut in tortor orci. Nulla facilisi. Sed quis fringilla enim. Curabitur dictum, enim non egestas feugiat, lorem sapien suscipit justo, et elementum mauris est eget sem. Ut a tortor auctor, lacinia odio vel, commodo mi.",
-      "authors": {
-        "image": "example.png",
-        "name": "Emily Wang",
-        "slug": "emily-wang",
-        "bio": {
-          "title": "Fashion Stylist",
-          "description": "Emily Wang is a renowned fashion stylist, known for her keen fashion sense and ability to curate stunning looks. With her expertise in current trends and personal style, she provides valuable insights and tips to help individuals elevate their fashion choices."
+      id: 9,
+      image: "/assests/images/author/author3.png",
+    category: "Economy",
+    slug:"economy",
+    date: "2023-07-19",
+    icon: '/assests/images/home/catagory3.svg',
+    title: "Fashion Trends: Latest Styles and Must-Haves",
+    subTitle: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      authors: {
+        image: '/assests/images/home/author4.png',
+        title: "Floyd Miles",
+        slug:"floyd-miles",
+        address: "New york, USA",
+        subTitle: "Content Writer @Company",
+        bio: {
+          title: "Author and Designer",
+          description: "John Doe is an experienced author and designer, specializing in user interface design and user experience. With a keen eye for detail and a passion for creating visually appealing and intuitive designs, he has helped numerous startups establish their brand presence."
         }
       }
-    }
+    },
+    
   ]
   

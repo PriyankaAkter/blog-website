@@ -1,5 +1,6 @@
 import CustomButton from '@/components/shared/buttons/CustomButton'
 import Image from "next/image"
+import Link from 'next/link'
 const BlogHero = () => {
   return (
     <div className={`bg-[#F4F0F8] `}>
@@ -9,7 +10,7 @@ const BlogHero = () => {
                 <h2 className='mb-6'>Step-by-step guide to choosing great font pairs</h2>
                 <p className='mb-6'>By <span className='text-theme-purple'>John Doe</span>  |  May 23, 2022 </p>
                 <p className='mb-12'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br />fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                <CustomButton title="Read More" />
+                <Link href="/blogPost"><CustomButton title="Read More" /></Link>
             </div>
             <div >
                 <Image src='/assests/images/blog/hero.png' width={515} height={359} />

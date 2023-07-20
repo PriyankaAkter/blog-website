@@ -13,7 +13,7 @@ const AboutBlog = () => {
             <div className="w-[624px] h-[480px]">
               <Image src='/assests/images/about/about1.png'  fill objectFit="cover" />
             </div>
-            <div className="hidden w-[103px] h-[116px] bg-secondary rounded-tl-3xl -ml-12 -mt-[400px] absolute"></div>
+            <div className=" w-[103px] h-[116px] bg-secondary rounded-tl-3xl -ml-12 -mt-[400px] absolute"></div>
         </div>
         
         

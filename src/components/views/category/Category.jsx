@@ -3,11 +3,12 @@ import CategoryHome from './CategoryHome'
 
 import CategoryPost from './CategoryPost'
 
-const Category = () => {
+const Category = ({data,post}) => {
+
   return (
     <div>
-        <CategoryHome />
-        <CategoryPost />
+        <CategoryHome data={data}/>
+        <CategoryPost post={post}/>
     </div>
   )
 }

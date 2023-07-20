@@ -6,7 +6,7 @@ const HomeStory = () => {
     // 
         <div className='flex flex-col xl:flex-row gap-4 container'>
         <div>
-            <Image src="/assests/images/story.png" width={949} height={705} />
+            <Image src="/assests/images/home/story.png" width={949} height={705} />
         </div>
         <div className='xl:-ml-[343px] xl:w-[706px] xl:h-[584px] xl:mt-[125px]'>
         <div className=' bg-white xl:p-20'>

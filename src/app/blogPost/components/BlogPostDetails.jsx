@@ -7,7 +7,7 @@ const BlogPostDetails = () => {
         <div className="w-[768px]">
             <div className="flex gap-4 flex-col sm:flex-row mb-6">
               <div>
-                 <Image src="/assests/images/testimonial.png" width={48} height={48} />
+                 <Image src="/assests/images/home/testimonial.png" width={48} height={48} />
               </div>
               <div>
                  <h4>Jonathan Vallem</h4>

@@ -11,10 +11,10 @@ const BlogPostStory = () => {
     {
         BlogPostData.map((item)=>(
         <div className="flex flex-col lg:items-center gap-8">
-                <div className="mb-[14px] w-full h-[318px] relative ">
+                <div className="mb-[14px] w-full sm:w-[405px] h-[318px] relative ">
                   <Image src={item.image} fill objectFit="cover" />
                 </div>
-           <div>
+           <div className="w-full sm:w-[405px]">
            <p className="text-theme-purple font-medium tracking-[3px] mb-5">{item.title}</p>
            <h3 className="mb-4">{item.subTitle}</h3>
            <p>{item.description}</p>
