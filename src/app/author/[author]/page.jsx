@@ -4,7 +4,7 @@ import AuthorPost from '@/components/views/author/AuthorPost'
 import React from 'react'
 import {useParams} from 'next/navigation'
 import { HomeAuthorData } from '@/components/views/home/homeAboutdata'
-import { blogs } from '@/app/blog/blogData'
+import { blogs } from '@/components/views/blog/blogData'
 
 const page = () => {
   const param = useParams()

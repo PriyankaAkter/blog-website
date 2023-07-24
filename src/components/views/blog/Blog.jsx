@@ -1,5 +1,5 @@
-import HomeCategory from "../../../components/views/home/HomeCategory"
-import HomeJoin from "../../../components/views/home/HomeJoin"
+import HomeCategory from "../home/HomeCategory"
+import HomeJoin from "../home/HomeJoin"
 import BlogHero from "./BlogHero"
 import BlogPost from "./BlogPost"
 
@@ -8,7 +8,7 @@ const Blog = () => {
   return (
     <div>
         <BlogHero />
-        <BlogPost />
+        <BlogPost  />
         <HomeCategory />
         <HomeJoin />
     </div>

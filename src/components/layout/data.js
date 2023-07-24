@@ -7,7 +7,7 @@ export const NavList = [
     {
         id: 2,
         title: "Blog",
-        href: "/blog"
+        href: "/blog?page=1"
     },
     {
         id: 3,

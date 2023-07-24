@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { BlogAboutData } from "../../../app/blog/blogData"
+import { BlogAboutData } from "../blog/blogData"
 import AboutInfo from "./AboutInfo"
 
 const AboutAbout = () => {

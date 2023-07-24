@@ -13,7 +13,7 @@ const CategoryPostLeft = ({post}) => {
                   <Image src={item.image} fill objectFit="cover" />
                 </div>
                <div className="w-full lg:w-[512px]">
-               <p className="text-theme-purple font-medium tracking-[3px] mb-3">{item.category}</p>
+               <p className="text-theme-purple font-medium tracking-[3px] mb-3">{item.category.name}</p>
                <h2 className="mb-4">{item.title}</h2>
                <p>{item.subTitle}</p>
                </div>

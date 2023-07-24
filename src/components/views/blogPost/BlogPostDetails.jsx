@@ -1,25 +1,25 @@
-
+import { blogs } from "@/components/views/blog/blogData"
 import Image from "next/image"
-const BlogPostDetails = () => {
+const BlogPostDetails = ({post}) => {
   return (
     <div className="container">
         <div className="flex justify-center my-16">
         <div className="w-[768px]">
             <div className="flex gap-4 flex-col sm:flex-row mb-6">
               <div>
-                 <Image src="/assests/images/home/testimonial.png" width={48} height={48} />
+                 <Image src={post.authors.image} width={48} height={48} alt="author" />
               </div>
               <div>
-                 <h4>Jonathan Vallem</h4>
-                 <p>New york, USA</p>
+                 <h4>{post.authors.title}</h4>
+                 <p>Posted on {post.date}</p>
               </div>
             </div>
-            <h1 className="mb-8">Step-by-step guide to choosing great font pairs</h1>
+            <h1 className="mb-8">{post.title}</h1>
             <div className="flex gap-2 items-center">
               <div className="w-6 h-6 relative">
-                 <Image src="/assests/images/home/catagory2.svg" fill objectFit="cover" />
+                 <Image src={post.icon} fill objectFit="cover" />
                </div>
-               <h4>Startup</h4>
+              <h4>{post.category.name}</h4>
             </div>
         </div>
         </div>

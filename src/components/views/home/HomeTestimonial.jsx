@@ -31,6 +31,11 @@ const HomeTestimonial = () => {
       >
         {/* <SwiperNextButton />
         <SwiperPreviousButton /> */}
+        <div className="flex absolute bottom-0 right-0 z-10 gap-6">
+                    <SwiperPreviousButton />
+                    <SwiperNextButton />
+                    
+                  </div>
         {HomeTestimonialData.map((e, index) => (
           <SwiperSlide key={index}>
             
@@ -47,11 +52,7 @@ const HomeTestimonial = () => {
                       <p>{e.address}</p>
                     </div>
                   </div>
-                  <div className="flex gap-6">
-                    <SwiperPreviousButton />
-                    <SwiperNextButton />
-                    
-                  </div>
+                  
                 </div>
 
 

@@ -11,7 +11,7 @@ const HomeHero = () => {
                     <span className='display mb-6 block'>Step-by-step guide to choosing <br />great font pairs</span>
                     <p className='mb-6'>By <span className='text-secondary'>James West</span>  |  May 23, 2022 </p>
                     <p className='mb-12'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                    <Link href="/blog"><CustomButton title="Read More" /></Link>
+                    <Link href="/blog?page=1"><CustomButton title="Read More" /></Link>
                 </div>
             </div>
         </div>

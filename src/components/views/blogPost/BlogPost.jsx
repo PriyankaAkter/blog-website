@@ -1,13 +1,13 @@
 
-import HomeJoin from '../../../components/views/home/HomeJoin'
+import HomeJoin from '../home/HomeJoin'
 import BlogPostDetails from './BlogPostDetails'
 import BlogPostStory from './BlogPostStory'
 
-const BlogPost = () => {
+const BlogPost = ({post,blog}) => {
   return (
     <div>
-        <BlogPostDetails />
-        <BlogPostStory />
+        <BlogPostDetails post={post} />
+        <BlogPostStory blog={blog} />
         <HomeJoin />
     </div>
   )
